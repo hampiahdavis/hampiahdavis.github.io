@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(115, 134, 232);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 6px solid black;
+    box-shadow: 0 14px 70px 0 rgba(0, 0, 0, 0.2), 0 6px 70px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* bottom nav bar */
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    background-color: black;
+}
+
+li {
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightblue;
+}
+
+/* Individual Cards */
+.galleryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.galleryCard {
+    border: 3px solid black;
+    margin: 150px 10px 10px 10px;
+    width: 150px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: monospace;
+}
